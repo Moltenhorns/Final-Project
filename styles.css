@@ -1,0 +1,136 @@
+/* Authors: Grace and Ashley
+Date: 10/26/23
+File Name:styles.css
+*/
+
+/*css reset*/
+body,header,nav,main,footer,h1,div.img{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for body and image*/
+body{ 
+    background-color: #a13333;
+}
+
+img{
+    max-width: 100%;
+    display:block;
+    height: 450px;
+    width: 350px;
+}
+
+/*Style rules for header*/
+header{
+    float: center;
+}
+
+header img{
+    height: 100%;
+    width: 100%;
+}
+
+/* Style rules for navigation area*/
+nav{
+  width:70%;
+  float:center;
+  margin:5em 3em 0 0;
+}
+
+nav ul{
+     list-style-type:none;
+     margin:0;
+     text-align:right;
+}
+
+nav li{
+    display:inline-block;
+    font-size:1.5em;
+    font-family:verdana, Arial, sans-serif;
+    font-weight:bold;
+}
+
+nav li a{ 
+    display:block;
+    color:#fff;
+    text-align:center;
+    padding:0.5em 1em;
+    text-decoration:none;
+}
+
+/*Style rules for main content*/
+main{
+    clear:both;
+    background-color:#fff;
+    padding:2%;
+    font-size:1.25em;
+    }
+
+.action{
+    font-size:1.35em;
+    color:#666600;
+    font-weight:bold;
+}
+
+#weights, #cardio, #training{
+   width:29%;
+   float:left; 
+   margin:0 2%;
+}
+
+#exercises{
+    clear:left;
+    border-top:1px solid #000;
+    border-bottom: 1px solid #000;
+    background-color: #f2f2f2;
+    padding:1% 2%;
+}
+
+#exercise dt {
+    font-weight:bold;
+}
+
+#exercise dd {
+    padding:0.5% 1% 2% 0;
+}
+
+.external-link{
+    color:#666600;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#about-japan{
+    text-align: center;  
+    color: pink;
+}
+
+#fuji, #cherry-blossom, #deer, #egg {
+    color:#df7878;
+    text-decoration: none;
+    float: right 2%;
+}
+
+#fuji img, #cherry-blossom img, #deer img, #egg img {
+    border: double pink;
+    align-items: center;
+}
+
+div{
+    border:8px solid #000;
+}
+
+/*Styles rules for footer*/
+footer p{
+    font-size:0.75em;
+text-align: center;
+color:#fff;
+padding: 0 1em;
+}
+
+footer  p a{
+    color:#fff;
+    text-decoration: none;
+}
